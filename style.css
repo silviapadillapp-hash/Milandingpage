@@ -104,20 +104,3 @@ body {
   border-radius: 4px;
   transition: 0.3s ease;
 }
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .container {
-    grid-template-columns: 1fr; /* Una sola columna */
-  }
-
-  .sidebar {
-    text-align: center;
-    border-right: none;
-    border-bottom: 3px solid #0077b6;
-  }
-
-  .profile-photo {
-    margin: 0 auto 15px;
-  }
-}
